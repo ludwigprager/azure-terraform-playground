@@ -19,6 +19,7 @@ Also
 -- keyvault and
 -- storage-account
   must be globally unique
+<!--
 ## Usage
 1. create the service principal
     ```
@@ -26,14 +27,14 @@ Also
     ```
    Wait a few seconds until Azure is able to us
 2.
+-->
 
 ## Use Cases
 - repeatedly apply and destroy your IaC (infrastructure as code) including the storage account
 - repeatedly apply and destroy your IaC (infrastructure as code) but keep the storage account
 - modify your IaC and test the roll-out
 
-## keep in mind
-test project
-- storage account is  deleted
-- vault is deleted
-- no plan presented. plan is applied without approval.
+## Keep in mind
+Since this is a test project 
+- both storage account and vault will be deleted when running the 'tear down' script.
+- no 'terraform plan' presented, the plan is applied without approval.

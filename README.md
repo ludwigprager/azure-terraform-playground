@@ -2,7 +2,7 @@
 
 ## TL;DR
 1. Change `TF_VAR_keyvault_name` and 	`TF_VAR_sta_name` in `set-env.sh` to globally unique names.
-Read more [here](./set-env.sh)
+Read more [`here`](./set-env.sh)
 2. Run  
         ```
         ./00-service-principal.sh <subscription name>

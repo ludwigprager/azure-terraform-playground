@@ -44,14 +44,12 @@ The setup consists of three steps:
 
 
 ## Objectives
-- idempotent
-- ready to use test environment for arbitrary azure+terraform deployments
-- no editing of scripts necessary
-- uniqueness of names for
--- keyvault and
--- storage-account
-  must be globally unique
+- for a first test no editing of scripts is necessary. Except for unique names for storage account + vault all should run out of the box. This is the main advantage over other, similar publications.
+- ready-to-use test environment for arbitrary azure deployments. Especially for a level of complexity that makes it hard be created with the portal and its UI, only.
+- possibility to address issues that appeared in more complex installations. You sometimes want to test something in an isolated environment.
+
 <!--
+- idempotent
 ## Usage
 1. create the service principal
     ```
@@ -61,12 +59,14 @@ The setup consists of three steps:
 2.
 -->
 
+<!--
 ## Use Cases
 - repeatedly apply and destroy your IaC (infrastructure as code) including the storage account
 - repeatedly apply and destroy your IaC (infrastructure as code) but keep the storage account
 - modify your IaC and test the roll-out
+-->
 
-## Keep in mind
+## Disclaimer
 Since this is a test project 
-- both storage account and vault will be deleted when running the 'tear down' script.
-- no 'terraform plan' presented, the plan is applied without approval.
+- both storage account and vault will be deleted when running the 'tear down' script. Take precautions in a productive environment.
+- you are not shown a 'terraform plan', the plan is applied immediately without approval.

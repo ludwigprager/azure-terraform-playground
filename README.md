@@ -1,10 +1,15 @@
 # Azure Terraform Playground
+
+## TL;DR
+1. in file set-env.sh edit the settings for `TF_VAR_keyvault_name` and 	`TF_VAR_sta_name` to get a globally unique name.
+2. 
+        ```
+        ./00-service-principal.sh <subscription name>
+        ```
+
+## Description
 This is a compact project that lets you test an Azure setup with terraform.
-It essentially consists of a one-button process: after cloning the repo a simple
-```
-./00-service-principal.sh <subscription name>
-```
-should get you done.  
+It essentially consists of a one-button process.
 Also
 - the terraform state will be stored in a storage account
 - all steps are idempotent

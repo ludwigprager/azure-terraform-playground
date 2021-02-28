@@ -1,5 +1,5 @@
 # Azure Terraform Playground
-This is a compact project that let's you test an Azure setup with terraform.
+This is a compact project that lets you test an Azure setup with terraform.
 It essentially consists of a one-button process: after cloning the repo a simple
 ```
 ./00-service-principal.sh <subscription name>

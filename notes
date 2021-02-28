@@ -1,0 +1,22 @@
+https://dewolfs.github.io/getting-started-with-terraform-on-azure/
+
+https://www.terraform.io/downloads.html
+
+https://www.terraform.io/docs/language/settings/backends/azurerm.html
+https://gist.github.com/neilpeterson/7f95db0c8f7d57ee27e515edf772dfbe
+https://medium.com/developingnodes/how-to-manage-terraform-state-in-azure-blob-storage-870a80917450
+
+## delete in portal:
+
+find SP:
+1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps
+2. app registrations
+3. 'All Applications'
+
+# delete
+- resource groups
+- networks
+- storage account
+
+git remote add g1 http://lyra.g1:3000/lprager/azure-terraform-playground.git
+git push -u g1 master

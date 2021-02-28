@@ -45,18 +45,3 @@ export tenant_id=$tenant_id
 
 envsubst < $DIR/terraform.tfvars.tpl > $DIR/terraform.tfvars
 
-echo
-echo
-echo
-echo
-echo
-echo Waiting for 60 seconds for the service principal to get available for Azure
-echo In case you find an error message similar to: Error building account: Error getting authenticated object ID: Error listing Service Principals:
-echo simply retrigger with:
-echo
-echo $DIR/10-deploy.sh
-echo
-
-sleep 60
-
-$DIR/10-deploy.sh

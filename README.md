@@ -45,8 +45,8 @@ The setup consists of three steps:
 
 ## Objectives
 - for a first test no editing of scripts is necessary. Except for unique names for storage account + vault all should run out of the box. This is the main advantage over other, similar publications.
-- ready-to-use test environment for arbitrary azure deployments. Especially for a level of complexity that makes it hard be created with the portal and its UI, only.
-- possibility to address issues that appeared in more complex installations. You sometimes want to test something in an isolated environment.
+- ready-to-use test environment for arbitrary azure deployments. Especially for a level of complexity that makes it hard to be created with the portal, only.
+- possibility to address issues that appeared in more complex installations. You sometimes want to test things in an isolated environment.
 
 <!--
 - idempotent

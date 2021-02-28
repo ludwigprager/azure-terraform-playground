@@ -2,7 +2,7 @@
 
 # name of keyvault - must be globally unique
 # I'd suggest to use the current data & time
-export TF_VAR_keyvault_name="atp-keyvault-202102281651"
+export TF_VAR_keyvault_name="atp-vault-202102281651"
 
 # name of storage account - must be globally unique
 # I'd suggest to use the current data & time

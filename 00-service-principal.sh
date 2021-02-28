@@ -50,8 +50,8 @@ echo
 echo
 echo
 echo
-echo waiting for 60 seconds for the service principal to get available for Azure
-echo in case you find an error message similar to: Error building account: Error getting authenticated object ID: Error listing Service Principals:
+echo Waiting for 60 seconds for the service principal to get available for Azure
+echo In case you find an error message similar to: Error building account: Error getting authenticated object ID: Error listing Service Principals:
 echo simply retrigger with:
 echo
 echo $DIR/10-deploy.sh

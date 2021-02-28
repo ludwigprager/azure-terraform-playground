@@ -1,8 +1,8 @@
 # Azure Terraform Playground
 
 ## TL;DR
-1. in file set-env.sh edit the settings for `TF_VAR_keyvault_name` and 	`TF_VAR_sta_name` to get a globally unique name.
-2. 
+1. Change `TF_VAR_keyvault_name` and 	`TF_VAR_sta_name` in `set-env.sh` to globally unique names.
+2. Run  
         ```
         ./00-service-principal.sh <subscription name>
         ```

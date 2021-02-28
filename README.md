@@ -40,8 +40,7 @@ The setup consists of three steps:
     - terraform has run before, the remote state file reflects the state of the Azure objects. But we modified the tf-files in order to modify the infrastructure.  
 
     In any case, after the step is (sucessfully) executed the remote state file and the Azure objects will be in sync with the tf-files in this directory.  
-    The [file vnet.tf](./30-main/vnet.tf) serves as an example for the infrastructure you want to create. Replace this by your tf-files in [the 30-main](./30-main) directory to accomplish your project.
-  
+    The file [vnet.tf](./30-main/vnet.tf) serves as an example for the infrastructure to be created. Replace it and add you own tf-files to the [30-main](./30-main) directory to accomplish your project.
 
 
 ## Objectives
